@@ -1,0 +1,40 @@
+  #content-app{
+    margin: 20px;
+  }
+  #content {
+    width: 300px;
+    text-align: center;
+    border: rgb(151, 151, 151) solid 1px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, white, rgb(122, 121, 122));
+  }
+  
+  header,
+  footer {
+    background-color: rgb(240, 238, 238);
+    color: green;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  button {
+    width: 60px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(243, 242, 242);
+    color: black;
+    border: none;
+    box-shadow: 1px 2px 3px 1px rgb(49, 49, 49);
+    text-shadow: 1px 1px 3px rgb(142, 143, 142);
+    border-radius: 10px;
+    cursor:pointer;
+  }
+  
+  input{
+    width: 250px;
+    font-size: 30px;
+    background-color:rgb(255, 254, 254);
+    text-align: right;
+    box-shadow: 1px 2px 3px 1px rgb(131, 131, 131);
+    text-shadow: 1px 1px 3px rgb(52, 52, 99);
+  }

@@ -1,0 +1,42 @@
+body{
+	background: #080808;
+
+}
+.menu a{
+	text-decoration: none;
+	color: #dcdcdc;
+	
+
+}
+.menu li{
+	margin-top: 10px;
+	float: left;
+    position: relative;
+    white-space: nowrap;
+    align-items: baseline;
+    display: flex;
+    margin-right: 5%;
+
+}
+.imge{
+	border: none;
+	width: 90%;
+	max-width: 500px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.meio{
+	display: flex;
+	width: 100%;
+	height: 700px;
+}
+.img, .p{
+	width: 40%;
+	height: 97%;
+}
+p{
+	font-size: 16;
+	color: #dcdcdc;
+}
