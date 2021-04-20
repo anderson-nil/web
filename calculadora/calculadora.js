@@ -36,8 +36,10 @@ function writeNumber(elementId) {
   
       var field1txt = document.getElementById('field1');
       if (field1txt.value != '') {
-        var calculateResult = eval(field1txt.value);
+        let vf = field1txt.value.replaceAll("X", "*");
+        var calculateResult = eval(vf);
         field1txt.value = calculateResult;
+
       }
     } catch (err) {
   
